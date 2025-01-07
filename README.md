@@ -82,6 +82,7 @@ yarn preview
 bun run preview
 ```
 ## Credits
+Thanks to:
 - [ArcoDesign](https://arco.design/)
 - [ArcoDesign Pro](https://pro.arco.design/)
 - [Nuxt](https://nuxt.com/)
