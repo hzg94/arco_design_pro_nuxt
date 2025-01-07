@@ -104,9 +104,10 @@ export default defineNuxtComponent({
                         key={element?.name}
                         v-slots={{
                           icon,
-                          title: () => h(compile(element?.meta?.title as string || '')),
+                          title: () => element.meta?.title || '',
                         }}
                     >
+
                       {travel(element?.children)}
                     </a-sub-menu>
                 ) : (

@@ -1,4 +1,8 @@
 
+export interface Pagination {
+    current: number,
+    pageSize: number,
+}
 
 export interface ApiResponse<T> {
     data: T;

@@ -1,4 +1,3 @@
-import {successResponseWrap} from "~/server/utils/ResopnseWrap";
 import type {ApiResponse} from "~/types/global";
 
 export interface PopularList {
