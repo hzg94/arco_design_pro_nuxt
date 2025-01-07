@@ -265,7 +265,6 @@ import Sortable from 'sortablejs';
 
 
 definePageMeta({
-  icon: 'icon-list',
   title: '搜索表格',
   order: 3,
 })
