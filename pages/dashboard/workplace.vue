@@ -15,7 +15,7 @@
         <a-grid-item
             :span="{ xs: 24, sm: 24, md: 24, lg: 12, xl: 12, xxl: 12 }"
         >
-<!--          <CategoriesPercent />-->
+          <WorkplaceCategoriesPercent/>
         </a-grid-item>
       </a-grid>
     </div>
@@ -23,18 +23,18 @@
       <a-grid :cols="24" :row-gap="16">
         <a-grid-item :span="24">
           <div class="panel moduler-wrap">
-<!--            <QuickOperation />-->
-<!--            <RecentlyVisited />-->
+            <WorkplaceQuickOperation/>
+            <WorkplaceRecentlyVisited/>
           </div>
         </a-grid-item>
         <a-grid-item class="panel" :span="24">
-<!--          <Carousel />-->
+          <WorkplaceCarousel/>
         </a-grid-item>
         <a-grid-item class="panel" :span="24">
-<!--          <Announcement />-->
+          <WorkplaceAnnouncement/>
         </a-grid-item>
         <a-grid-item class="panel" :span="24">
-<!--          <Docs />-->
+          <WorkplaceDocs/>
         </a-grid-item>
 
       </a-grid>
