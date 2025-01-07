@@ -3,15 +3,14 @@
     <div class="left-side">
       <div class="panel">
         <WorkplaceBanner/>
-<!--        <DataPanel />-->
+        <WorkplaceDataPanel/>
         <ContentChart/>
-<!--        <ContentChart />-->
       </div>
       <a-grid :cols="24" :col-gap="16" :row-gap="16" style="margin-top: 16px">
         <a-grid-item
             :span="{ xs: 24, sm: 24, md: 24, lg: 12, xl: 12, xxl: 12 }"
         >
-<!--          <PopularContent />-->
+          <WorkplacePopularContent />
         </a-grid-item>
         <a-grid-item
             :span="{ xs: 24, sm: 24, md: 24, lg: 12, xl: 12, xxl: 12 }"
@@ -49,7 +48,7 @@ import ContentChart from "~/components/workplace/contentChart.vue";
 
 definePageMeta({
   icon: 'icon-dashboard',
-  title: 'dashborad',
+  title: '仪表盘',
   requiresAuth: true,
   hideInMenu: false,
   order: 3,

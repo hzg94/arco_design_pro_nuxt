@@ -1,6 +1,10 @@
-# ArcoDesign Pro Nuxt
+# ArcoDesign Pro Nuxt (WIP)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Introduction 
+未完成
+
+## TODO
+- [ ] 完成其他页面
 
 ## modify
 vue-echarts --> nuxt-echarts
@@ -74,5 +78,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
