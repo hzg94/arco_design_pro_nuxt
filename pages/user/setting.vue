@@ -1,9 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
   icon: 'icon-settings',
-  title: 'test',
-  requiresAuth: true,
-  hideInMenu: false,
+  title: '用户设置',
   order: 3,
 })
 </script>

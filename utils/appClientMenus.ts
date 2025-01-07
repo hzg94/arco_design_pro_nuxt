@@ -1,7 +1,7 @@
 import type {RouteRecordNormalized} from "#vue-router";
 
 
-const externalModules = [
+const externalModules: Partial<RouteRecordNormalized>[] = [
     {
         path: 'https://arco.design',
         name: 'arcoWebsite',

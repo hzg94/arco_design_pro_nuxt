@@ -125,6 +125,7 @@ export default defineNuxtComponent({
         return nodes;
       }
 
+
       return travel(menuTree.value);
     };
 

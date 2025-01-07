@@ -4,6 +4,7 @@ definePageMeta({
   icon: 'icon-user',
   title: '个人中心',
   requiresAuth: true,
+  hideInMenu: false,
   order: 3,
 })
 

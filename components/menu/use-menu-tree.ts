@@ -15,6 +15,7 @@ export default function useMenuTree(routes:RouteRecordNormalized[]) {
 
     const menuTree = computed(() => {
         const copyRouter = cloneDeep(appRoute.value) as RouteRecordNormalized[];
+
         copyRouter.sort((a: RouteRecordNormalized, b: RouteRecordNormalized) => {
             //@ts-ignore
             return (a.meta.order || 0) - (b.meta.order || 0);
@@ -24,6 +25,7 @@ export default function useMenuTree(routes:RouteRecordNormalized[]) {
             if (!_routes) return null;
 
             const collector: any = _routes.map((element) => {
+                console.log(element)
                 // no access
                 if (!permission.accessRouter(element)) {
                     return null;

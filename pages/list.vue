@@ -3,7 +3,7 @@
 definePageMeta({
   Validate: true,
   icon: 'icon-list',
-  title: '搜索表格',
+  title: '列表页',
   requiresAuth: true,
   order: 3,
 })
