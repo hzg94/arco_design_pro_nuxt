@@ -1,17 +1,19 @@
 # ArcoDesign Pro Nuxt (WIP)
 
-## Introduction 
-未完成
+## Introduction 介绍
+arco design pro 的 nuxt 版本 (未完成)
+无 I8n (国际化)
 
-## TODO
-- [x] 完成首页
-- [ ] 完成其他页面
+## TODO 任务清单
+- [x] 完成首页 finish dashboard
+- [ ] 修正文本 fix text 
+- [ ] 完成其他页面 finish other pages
 
-## modify
+## modify 修改
 vue-echarts --> nuxt-echarts
 
-## Setup
-
+## Setup 启动
+请确保安装所有依赖项
 Make sure to install dependencies:
 
 ```bash
@@ -28,8 +30,8 @@ yarn install
 bun install
 ```
 
-## Development Server
-
+## Development Server 开发环境
+开发版本运行在 
 Start the development server on `http://localhost:3000`:
 
 ```bash
@@ -46,8 +48,8 @@ yarn dev
 bun run dev
 ```
 
-## Production
-
+## Production 生产环境
+构建生产版本
 Build the application for production:
 
 ```bash
@@ -63,7 +65,7 @@ yarn build
 # bun
 bun run build
 ```
-
+本地预览生产版本
 Locally preview production build:
 
 ```bash
@@ -79,3 +81,7 @@ yarn preview
 # bun
 bun run preview
 ```
+## Credits
+- [ArcoDesign](https://arco.design/)
+- [ArcoDesign Pro](https://pro.arco.design/)
+- [Nuxt](https://nuxt.com/)
