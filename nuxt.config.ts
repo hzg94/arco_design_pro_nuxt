@@ -16,6 +16,8 @@ export default defineNuxtConfig({
   ],
 
   arco: {
+    // TODO: use other theme package
+    // theme: '',
     icons: false
   },
 

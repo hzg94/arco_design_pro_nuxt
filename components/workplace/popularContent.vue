@@ -76,8 +76,10 @@
 import type {PopularList} from "~/server/api/queryPopularList";
 
 const type = ref('text');
+
 const { loading, setLoading } = useLoading();
-const renderList = ref<PopularList[]>();
+
+const renderList = ref<PopularList[]>([]);
 
 const fetchData = async (contentType: string) => {
   try {
@@ -86,7 +88,8 @@ const fetchData = async (contentType: string) => {
     const { data } = await useFetch('/api/queryPopularList', {
       params: {
         type: contentType
-      }
+      },
+      server: false
     });
 
     if(data.value){
